@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawiarnia - Caffka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b6250da6b7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NAV MOBILE -->
+    <nav class="nav-mobile">
+        <button class="nav-mobile__burger">
+            <span class="nav-mobile__burger-item"></span>
+            <span class="nav-mobile__burger-item nav-mobile__burger-item--right"></span>
+            <span class="nav-mobile__burger-item"></span>
+        </button>
+        <div class="nav-mobile__menu">
+            <a href="#header" class="nav-mobile__menu-item">home</a>
+            <a href="#achievements" class="nav-mobile__menu-item">Osiągnięcia</a>
+            <a href="#propositions" class="nav-mobile__menu-item">Propozycje</a>
+            <a href="#reviews" class="nav-mobile__menu-item">Opinie</a>
+            <a href="#contact" class="nav-mobile__menu-item">kontakt</a>
+        </div>
+    </nav>
+    <!-- NAV DESKTOP -->
+    <nav class="nav-desktop">
+        <div class="wrapper nav-desktop__wrapper">
+            <a href="#header" class="nav-desktop__item">Home</a>
+            <a href="#achievements" class="nav-desktop__item">Osiągnięcia</a>
+            <a href="#propositions" class="nav-desktop__item">Propozycje</a>
+            <a href="#reviews" class="nav-desktop__item">Opinie</a>
+            <a href="#contact" class="nav-desktop__item">Kontakt</a>
+        </div>
+    </nav>
+    <!-- HEADER -->
+    <header id="header" class="header">
+        <div class="wrapper header__wrapper">
+            <div class="header__text">
+                <h1 class="header-heading">Kawiarnia Caffka</h1>
+                <p class="header-location">ul.Groszkowa 5 Kraków</p>
+                <a class="header-btn" href="#contact">Kontakt</a>
+            </div>
+            <img class="header__img" src="img/header/header.svg" alt="Grupka znajomych pije kawkę w kawiarni.">
+        </div>
+    </header>
+    <main>
+        <!-- ACHIEVEMENTS -->
+        <section id="achievements" class="achievements">
+            <div class="section-shadow"></div>
+            <h2 class="section-title">Osiągnięcia</h2>
+            <div class="section-shadow"></div>
+            <div class="wrapper achievements__wrapper">
+                <div class="achievements__box">
+                    <div class="achievements__box-circle">
+                        <p class="achievements__box-circle-text">100%</p>
+                    </div>
+                    <div class="achievements__box-text">100% zadowolonych klientów.</div>
+                </div>
+                <div class="achievements__box">
+                    <div class="achievements__box-circle">
+                        <p class="achievements__box-circle-text">37</p>
+                    </div>
+                    <div class="achievements__box-text">37 zdobytych nagród.</div>
+                </div>
+                <div class="achievements__box">
+                    <div class="achievements__box-circle">
+                        <p class="achievements__box-circle-text">80.000</p>
+                    </div>
+                    <div class="achievements__box-text">Ponad 80.000 obserwujących w social media.</div>
+                </div>
+                <div class="achievements__box">
+                    <div class="achievements__box-circle">
+                        <p class="achievements__box-circle-text">100</p>
+                    </div>
+                    <div class="achievements__box-text">Ponad 100 unikatowych smaków kawy.</div>
+                </div>
+            </div>
+        </section>
+        <!-- PROPOSITIONS -->
+        <section id="propositions" class="propositions section-padding">
+            <h2 class="section-title">Propozycje</h2>
+            <div class="wrapper propositions__wrapper">
+                <div class="propositions__card">
+                    <button class="propositions__card-btn propositions__card-btn--one"><i
+                            class="fa-solid fa-question"></i></button>
+                    <div class="propositions__card__text propositions__card__text--one">
+                        <h3 class="propositions__card__text-heading">Romano</h3>
+                        <p class="propositions__card__text-description">Kawa Romano to nic inego jak kawa wzbogacona o
+                            aromat skórki cytrynowej.</p>
+                    </div>
+                </div>
+                <div class="propositions__card">
+                    <button class="propositions__card-btn propositions__card-btn--two"><i
+                            class="fa-solid fa-question"></i></button>
+                    <div class="propositions__card__text propositions__card__text--two">
+                        <h3 class="propositions__card__text-heading">Latte macchiato</h3>
+                        <p class="propositions__card__text-description">W kawie Latte macchiato, mleko stanowi główny
+                            składnik napoju.</p>
+                    </div>
+                </div>
+                <div class="propositions__card">
+                    <button class="propositions__card-btn propositions__card-btn--three"><i
+                            class="fa-solid fa-question"></i></button>
+                    <div class="propositions__card__text propositions__card__text--three">
+                        <h3 class="propositions__card__text-heading">Lungo</h3>
+                        <p class="propositions__card__text-description">Jest to typ kawy najbliższy dobrze znanej nam w
+                            Polsce czarnej kawie, którą pijemy w dużym kubku.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- REVIEWS -->
+        </section>
+        <section id="reviews" class="reviews section-padding">
+            <h2 class="section-title">Opinie</h2>
+            <div class="wrapper reviews__wrapper">
+                <img class="reviews__img" src="img/reviews/reviews.svg" alt="Opinie">
+                <div class="reviews__container">
+                    <div class="reviews__box">
+                        <p class="reviews__box-description">Przytulne, fantastyczne miejsce. Bardzo mi się tu podoba,
+                            klimat jest niezwykły. Rzadko spotyka się tak urocze miejsca. Serdecznie polecam!</p>
+                        <div class="reviews__box-content">
+                            <div class="reviews__box-portrait reviews__box-portrait--first"></div>
+                            <p class="reviews__box-name">Magdalena</p>
+                            <div class="reviews__box-stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__box">
+                        <p class="reviews__box-description">Świetnie miejsce! Do wyboru są zarówno lody, kawa jak i
+                            przekąski. Ze znajomymi wstąpiliśmy na lody, kawę i gofry. Wszystko przepyszne, szczególnie
+                            lody krówka z bezą.</p>
+                        <div class="reviews__box-content">
+
+                            <div class="reviews__box-portrait reviews__box-portrait--second"></div>
+                            <p class="reviews__box-name">Karolina</p>
+                            <div class="reviews__box-stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__box">
+                        <p class="reviews__box-description">Świetne, bardzo klimatyczne miejsce. W szczególności dla
+                            wszystkich ceniących sobie ciszę i spokój. Bardzo miła obsługa, świetne gofry i kawa, a do
+                            tego lekko jazzująca muzyka w tle.</p>
+                        <div class="reviews__box-content">
+
+                            <div class="reviews__box-portrait reviews__box-portrait--third"></div>
+                            <p class="reviews__box-name">Aleksandra</p>
+                            <div class="reviews__box-stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section id="contact" class="contact section-padding">
+            <h2 class="section-title">Kontakt</h2>
+            <div class="wrapper contact__wrapper">
+                <div class="contact__content">
+                    <img class="contact__img" src="img/contact/contact.svg" alt="Kontakt">
+                    <form class="contact__form">
+                        <label for="name">Imię:</label>
+                        <input type="text" id="name">
+                        <label for="surname">Nazwisko:</label>
+                        <input type="text" id="surname">
+                        <label for="e-mail">E-mail:</label>
+                        <input type="text" id="e-mail">
+                        <label for="message">Wiadomość:</label>
+                        <textarea name="message" id="message" cols="100" rows="3"></textarea>
+                        <input class="contact__form__btn" type="submit" value="Wyślij">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer section-padding">
+        <div class="wrapper footer__wrapper">
+            <div class="footer__content">
+                <div class="footer__opening-hours">
+                    <h4 class="footer__heading">Godziny otwarcia</h4>
+                    <p class="footer__opening-hours-item"><i class="fa-solid fa-clock"></i>Pn - Sob 8:00 - 21:00</p>
+                    <p class="footer__opening-hours-item"><i class="fa-solid fa-clock"></i>Niedziela - 10:00 - 18:00
+                    </p>
+                    <p class="footer__opening-hours-item"><i class="fa-solid fa-location-dot"></i>ul.Groszkowa 5 Kraków
+                    </p>
+                </div>
+                <div class="footer__socials">
+                    <h4 class="footer__heading">Media społecznościowe</h4>
+                    <a href="" class="footer__socials-link"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href="" class="footer__socials-link"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                    <a href="" class="footer__socials-link"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                </div>
+            </div>
+        </div>
+        <p class="footer__ending">&copy; 2022 Kawiarnia Caffka</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
